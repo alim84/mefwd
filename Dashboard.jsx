@@ -314,10 +314,10 @@ const Dashboard = () => {
               />
             </div>
           </div>
-          <div className="grid grid-cols-4 gap-2">
+          <div className="grid grid-cols-3 gap-2">
             <div className="report-container">
               <div className="report-header">
-                <h1 className="recent-Articles">Admin</h1>
+                <h1 className="recent-Articles">ManPower</h1>
                 <button className="view">View</button>
               </div>
               <div className="report-body">
@@ -339,7 +339,7 @@ const Dashboard = () => {
             </div>
             <div className="report-container">
               <div className="report-header">
-                <h1 className="recent-Articles">ME</h1>
+                <h1 className="recent-Articles">ManPower</h1>
                 <button className="view">View</button>
               </div>
               <div className="report-body">
@@ -359,50 +359,8 @@ const Dashboard = () => {
                 </div>
               </div>
             </div>
-            <div className="report-container">
-              <div className="report-header">
-                <h1 className="recent-Articles">Development</h1>
-                <button className="view">View</button>
-              </div>
-              <div className="report-body">
-                <div className="report-topic-heading">
-                  <h3 className="t-op">Class-1</h3>
-                  <h3 className="t-op">Class-2</h3>
-                  <h3 className="t-op">Class-3</h3>
-                  <h3 className="t-op">Class-4</h3>
-                </div>
-                <div className="items">
-                  <div className="item1">
-                    <h3 className="t-op-nextlvl">20</h3>
-                    <h3 className="t-op-nextlvl">35</h3>
-                    <h3 className="t-op-nextlvl">75</h3>
-                    <h3 className="t-op-nextlvl">115</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="report-container">
-              <div className="report-header">
-                <h1 className="recent-Articles">FM@AW</h1>
-                <button className="view">View</button>
-              </div>
-              <div className="report-body">
-                <div className="report-topic-heading">
-                  <h3 className="t-op">Class-1</h3>
-                  <h3 className="t-op">Class-2</h3>
-                  <h3 className="t-op">Class-3</h3>
-                  <h3 className="t-op">Class-4</h3>
-                </div>
-                <div className="items">
-                  <div className="item1">
-                    <h3 className="t-op-nextlvl">20</h3>
-                    <h3 className="t-op-nextlvl">35</h3>
-                    <h3 className="t-op-nextlvl">75</h3>
-                    <h3 className="t-op-nextlvl">115</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
+
+    
           </div>
         </div>
       </div>
