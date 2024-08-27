@@ -39,6 +39,29 @@ const Desipline = () => {
               </div>{" "}
               <div className="flex mx-auto justify-between">
                 <div className="py-3">
+                  <level className="text-yellow-200 block">পরিচিতি কোড :</level>
+
+                  <input
+                    className="py-2 px-10 rounded-md  border outline-1 hover:outline-indigo-600 "
+                    placeholder="পরিচিতি কোড"
+                    type="text"
+                    name="emname"
+                  ></input>
+                </div>
+                <div>
+                  <level className="text-yellow-200 block">
+                    মামলার বিবরণ:{" "}
+                  </level>
+                  <input
+                    className="py-2 px-10 rounded-md  border outline-1 hover:outline-indigo-600 "
+                    placeholder="মামলার বিবরণ"
+                    type="text"
+                    name="designation"
+                  ></input>
+                </div>
+              </div>{" "}
+              <div className="flex mx-auto justify-between">
+                <div className="py-3">
                   <level className="text-yellow-200 block">
                     প্রতিষ্ঠানের নাম :
                   </level>

@@ -29,9 +29,11 @@ const PersonelInfo = () => {
                 </div>
                 <div>
                   <level className="text-yellow-200 block">পদবি :</level>
-                  <select   className="rounded-lg ml-3 border-none hover:border-indigo-300 py-2 px-5"
+                  <select
+                    className="rounded-lg ml-3 border-none hover:border-indigo-300 py-2 px-5"
                     id="designation"
-                    name="designation">
+                    name="designation"
+                  >
                     <option>নির্বাচন করুন</option>
                     <option>প্রশাসন অনুবিভাগ</option>
                     <option>প্রোগ্রামার</option>
@@ -56,9 +58,11 @@ const PersonelInfo = () => {
                     শাখা/অধিশাখা/অনুবিভাগ :
                   </level>
 
-                  <select   className="rounded-lg  border-none hover:border-indigo-300 py-2 px-5"
+                  <select
+                    className="rounded-lg  border-none hover:border-indigo-300 py-2 px-5"
                     id="designation"
-                    name="designation">
+                    name="designation"
+                  >
                     <option>নির্বাচন করুন</option>
                     <option>সিস্টেম এনালিস্ট</option>
                     <option>প্রোগ্রামার</option>
@@ -261,62 +265,64 @@ const PersonelInfo = () => {
                 </h3>
                 <level className="text-yellow-200">নিয়োগের ধরন :</level>
                 <select
-                    className="rounded-lg ml-28 border-none hover:border-indigo-300 py-2 px-5"
-                    id="apptype"
-                    name="apptype"
-                  >
-                    <option value="dist">নির্বাচন করুন</option>
-                    <option value="dist">সরাসরি</option>
-                    <option value="dist">রাজস্ব</option>
-                    <option value="dist">অস্থায়ী</option>
-                    <option value="dist">চুক্তি ভিত্তিক</option>
-                  </select>
+                  className="rounded-lg ml-28 border-none hover:border-indigo-300 py-2 px-5"
+                  id="apptype"
+                  name="apptype"
+                >
+                  <option value="dist">নির্বাচন করুন</option>
+                  <option value="dist">সরাসরি</option>
+                  <option value="dist">রাজস্ব</option>
+                  <option value="dist">অস্থায়ী</option>
+                  <option value="dist">চুক্তি ভিত্তিক</option>
+                </select>
               </div>
               <div className="py-3">
                 <level className="text-yellow-200">প্রথম যোগদানের তারিখ:</level>
                 <input
                   className="py-2 px-10 rounded-md  ml-14 border outline-1 hover:outline-indigo-600 "
-                  
                   type="date"
                   name="name"
                 ></input>
               </div>
               <div className="py-3">
                 <level className="text-yellow-200">পদবি :</level>
-                <select   className="rounded-lg ml-44  border-none hover:border-indigo-300 py-2 px-5"
-                    id="designation"
-                    name="designation">
-                    <option>নির্বাচন করুন</option>
-                    <option>সিস্টেম এনালিস্ট</option>
-                    <option>প্রোগ্রামার</option>
-                    <option>সহকারী সচিব</option>
-                    <option>হিসাব রক্ষণ কর্মকর্তা</option>
-                    <option>সহকারী মেইনট্যানেন্স ইঞ্জিনিয়ার</option>
-                    <option>লাইব্রেরিয়ান</option>
-                    <option>প্রশাসনিক কর্মকর্তা</option>
-                    <option>ব্যক্তিগত কর্মকর্তা</option>
-                    <option>সহকারী হিসাব রক্ষণ কর্মকর্তা</option>
-                    <option>ক্যাশিয়ার</option>
-                    <option>কম্পিউটার অপারেটর</option>
-                    <option>সাঁট মুদ্রাক্ষরিক কাম কম্পিউটার অপারেটর</option>
-                    <option>অফিস সহকারী কাম কম্পিউটার অপারেটর</option>
-                    <option>অফিস সহায়ক</option>
-                  </select>
+                <select
+                  className="rounded-lg ml-44  border-none hover:border-indigo-300 py-2 px-5"
+                  id="designation"
+                  name="designation"
+                >
+                  <option>নির্বাচন করুন</option>
+                  <option>সিস্টেম এনালিস্ট</option>
+                  <option>প্রোগ্রামার</option>
+                  <option>সহকারী সচিব</option>
+                  <option>হিসাব রক্ষণ কর্মকর্তা</option>
+                  <option>সহকারী মেইনট্যানেন্স ইঞ্জিনিয়ার</option>
+                  <option>লাইব্রেরিয়ান</option>
+                  <option>প্রশাসনিক কর্মকর্তা</option>
+                  <option>ব্যক্তিগত কর্মকর্তা</option>
+                  <option>সহকারী হিসাব রক্ষণ কর্মকর্তা</option>
+                  <option>ক্যাশিয়ার</option>
+                  <option>কম্পিউটার অপারেটর</option>
+                  <option>সাঁট মুদ্রাক্ষরিক কাম কম্পিউটার অপারেটর</option>
+                  <option>অফিস সহকারী কাম কম্পিউটার অপারেটর</option>
+                  <option>অফিস সহায়ক</option>
+                </select>
               </div>
               <div className="py-3 ">
                 <level className="text-yellow-200">বেতন স্কেল :</level>
-                <select   className="rounded-lg ml-36  border-none hover:border-indigo-300 py-2 px-5"
-                    id="designation"
-                    name="designation">
-                    <option>নির্বাচন করুন</option>
-                    <option>(20)-8100X20---23000X15</option>
-                    <option>(20)-8100X20---23000X15</option>
-                    <option>(20)-8100X20---23000X15</option>
-                    <option>(20)-8100X20---23000X15</option>
-                    <option>(20)-8100X20---23000X15</option>
-                    <option>(20)-8100X20---23000X15</option>
-                 
-                  </select>
+                <select
+                  className="rounded-lg ml-36  border-none hover:border-indigo-300 py-2 px-5"
+                  id="designation"
+                  name="designation"
+                >
+                  <option>নির্বাচন করুন</option>
+                  <option>(20)-8100X20---23000X15</option>
+                  <option>(20)-8100X20---23000X15</option>
+                  <option>(20)-8100X20---23000X15</option>
+                  <option>(20)-8100X20---23000X15</option>
+                  <option>(20)-8100X20---23000X15</option>
+                  <option>(20)-8100X20---23000X15</option>
+                </select>
               </div>
             </div>
             <div className=" relative mx-auto justify-center gap-20 mt-10 p-5 outline-gray-400 outline outline-3 w-[800px]">
@@ -325,25 +331,27 @@ const PersonelInfo = () => {
                   পদোন্নতির তথ্য :{" "}
                 </h3>
                 <level className="text-yellow-200">পদোন্নতির পদবি :</level>
-                <select   className="rounded-lg ml-28  border-none hover:border-indigo-300 py-3 px-5"
-                    id="designation"
-                    name="designation">
-                    <option>নির্বাচন করুন</option>
-                    <option>সিস্টেম এনালিস্ট</option>
-                    <option>প্রোগ্রামার</option>
-                    <option>সহকারী সচিব</option>
-                    <option>হিসাব রক্ষণ কর্মকর্তা</option>
-                    <option>সহকারী মেইনট্যানেন্স ইঞ্জিনিয়ার</option>
-                    <option>লাইব্রেরিয়ান</option>
-                    <option>প্রশাসনিক কর্মকর্তা</option>
-                    <option>ব্যক্তিগত কর্মকর্তা</option>
-                    <option>সহকারী হিসাব রক্ষণ কর্মকর্তা</option>
-                    <option>ক্যাশিয়ার</option>
-                    <option>কম্পিউটার অপারেটর</option>
-                    <option>সাঁট মুদ্রাক্ষরিক কাম কম্পিউটার অপারেটর</option>
-                    <option>অফিস সহকারী কাম কম্পিউটার অপারেটর</option>
-                    <option>অফিস সহায়ক</option>
-                  </select>
+                <select
+                  className="rounded-lg ml-28  border-none hover:border-indigo-300 py-3 px-5"
+                  id="designation"
+                  name="designation"
+                >
+                  <option>নির্বাচন করুন</option>
+                  <option>সিস্টেম এনালিস্ট</option>
+                  <option>প্রোগ্রামার</option>
+                  <option>সহকারী সচিব</option>
+                  <option>হিসাব রক্ষণ কর্মকর্তা</option>
+                  <option>সহকারী মেইনট্যানেন্স ইঞ্জিনিয়ার</option>
+                  <option>লাইব্রেরিয়ান</option>
+                  <option>প্রশাসনিক কর্মকর্তা</option>
+                  <option>ব্যক্তিগত কর্মকর্তা</option>
+                  <option>সহকারী হিসাব রক্ষণ কর্মকর্তা</option>
+                  <option>ক্যাশিয়ার</option>
+                  <option>কম্পিউটার অপারেটর</option>
+                  <option>সাঁট মুদ্রাক্ষরিক কাম কম্পিউটার অপারেটর</option>
+                  <option>অফিস সহকারী কাম কম্পিউটার অপারেটর</option>
+                  <option>অফিস সহায়ক</option>
+                </select>
               </div>
               <div className="py-3">
                 <level className="text-yellow-200">প্রথম যোগদানের তারিখ:</level>
@@ -354,9 +362,8 @@ const PersonelInfo = () => {
                   name="name"
                 ></input>
               </div>
-              
             </div>
-            <button className="py-2 px-16 bg-yellow-200 rounded-lg mt-12 font-bold text-purple-900 hover:bg-indigo-600 hover:text-white flex mx-auto justify-center">
+            <button className="py-2 px-16 bg-yellow-200 rounded-lg mt-12 font-bold text-purple-900 hover:bg-indigo-600 hover:text-yellow-300 flex mx-auto justify-center">
               Submit
             </button>
           </div>
